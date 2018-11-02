@@ -1,3 +1,3 @@
-def my_collect
-end
+def my_collect(arr)
 
+end
