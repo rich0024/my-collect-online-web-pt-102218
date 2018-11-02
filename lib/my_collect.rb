@@ -10,7 +10,7 @@ def my_collect(languages)
 end
 
 new_arr = my_collect(['cernan', 'richard']) do |name|
-  name.capitalize
+  "hello"
 end
 binding.pry
 puts "hello"
