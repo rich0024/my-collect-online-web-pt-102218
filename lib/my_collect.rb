@@ -9,3 +9,8 @@ def my_collect(languages)
   collection
 end
 
+new_arr = my_collect(['cernan', 'richard']) do |name|
+  name.capitalize
+end
+binding.pry
+puts "hello"
