@@ -8,4 +8,3 @@ def my_collect(languages)
   end
   collection
 end
-
