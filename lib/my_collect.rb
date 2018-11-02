@@ -9,8 +9,3 @@ def my_collect(languages)
   collection
 end
 
-new_arr = my_collect(['cernan', 'richard']) do |name|
-  "hello #{name}"
-end
-binding.pry
-puts "hello"
