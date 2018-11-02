@@ -10,7 +10,7 @@ def my_collect(languages)
 end
 
 new_arr = my_collect(['cernan', 'richard']) do |name|
-  "hello"
+  "hello #{name}"
 end
 binding.pry
 puts "hello"
