@@ -1,7 +1,12 @@
 
-def my_collect(arr)
-  languages = ["ruby", "javascript", "python", "objective-c"]
-  my_collect(languages).collect do |language|
-    language.capitalizes
+def my_collect(languages)
+  i = 0
+  collection = []
+  while i < languages.length
+    collection << yield(languages[i])
+    i += 1
   end
+  collection
 end
+
+my_collect(['ruby', 'javascript', 'react'])
