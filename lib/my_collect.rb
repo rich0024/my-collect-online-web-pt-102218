@@ -1,4 +1,6 @@
-require 'pry'
+
 def my_collect(arr)
-  binding.pry
+  languages = ["ruby", "javascript", "python", "objective-c"] 
+  my_collect(languages).collect do |language|
+    language.capitalizes 
 end
